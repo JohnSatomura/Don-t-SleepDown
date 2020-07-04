@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NotifyIconWrapper));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.toolStripMenuItem_Open = new System.Windows.Forms.ToolStripMenuItem();
             this.settingOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_Exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -46,13 +46,6 @@
             this.toolStripMenuItem_Exit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(109, 76);
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
-            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "マウスオーバー";
-            this.notifyIcon1.Visible = true;
             // 
             // toolStripMenuItem_Open
             // 
@@ -71,6 +64,13 @@
             this.toolStripMenuItem_Exit.Name = "toolStripMenuItem_Exit";
             this.toolStripMenuItem_Exit.Size = new System.Drawing.Size(108, 24);
             this.toolStripMenuItem_Exit.Text = "終了";
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "寝落ちアラーム";
+            this.notifyIcon1.Visible = true;
             this.contextMenuStrip1.ResumeLayout(false);
 
         }

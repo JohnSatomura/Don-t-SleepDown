@@ -32,22 +32,22 @@ namespace SleepDown
             switch (comboBox.SelectedIndex)
             {
                 case 0:
-                    SoundFilePath = CurrentDirectory + "/SampleSound/cymbal.mp3";
+                    SoundFilePath = CurrentDirectory + "/SampleSound/sample0.mp3";
                     break;
                 case 1:
-                    SoundFilePath = CurrentDirectory + "/SampleSound/daughter.mp3";
+                    SoundFilePath = CurrentDirectory + "/SampleSound/sample1.mp3";
                     break;
                 case 2:
-                    SoundFilePath = CurrentDirectory + "/SampleSound/daughter.mp3";
+                    SoundFilePath = CurrentDirectory + "/SampleSound/sample2.mp3";
                     break;
                 case 3:
-                    SoundFilePath = CurrentDirectory + "/SampleSound/daughter.mp3";
+                    SoundFilePath = CurrentDirectory + "/SampleSound/sample3.mp3";
                     break;
                 case 4:
-                    SoundFilePath = CurrentDirectory + "/SampleSound/daughter.mp3";
+                    SoundFilePath = CurrentDirectory + "/SampleSound/sample4.mp3";
                     break;
                 case 5:
-                    SoundFilePath = CurrentDirectory + "/SampleSound/daughter.mp3";
+                    SoundFilePath = CurrentDirectory + "/SampleSound/sample5.wav";
                     break;
                 case 6:
                     button.Visibility = Visibility.Visible;
@@ -69,7 +69,6 @@ namespace SleepDown
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(SoundFilePath);
             this.Close();
             SleepDown.Properties.Settings.Default.FilePath = SoundFilePath;
             SleepDown.Properties.Settings.Default.AlertTime = Convert.ToDouble(RingSoundTime.Text);

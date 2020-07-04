@@ -19,7 +19,8 @@
         <Label x:Name="label1" Content="選択中の音声ファイル：" HorizontalAlignment="Left" Height="33" Margin="10,40,0,0" VerticalAlignment="Top" Width="186" FontSize="18"/>
         <Label x:Name="CurrentSoundFile" HorizontalAlignment="Left" Margin="186,40,0,0" VerticalAlignment="Top" Height="33" Width="164" FontSize="18"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="31,119,0,0" VerticalAlignment="Top" Width="234" SelectionChanged="comboBox_SelectionChanged" Height="41">
-            <ComboBoxItem x:Name="sample1" Content="サンプル1(シンバル)"/>
+            <ComboBoxItem x:Name="sample0" Content="サンプル0"/>
+            <ComboBoxItem x:Name="sample1" Content="サンプル1"/>
             <ComboBoxItem x:Name="sample2" Content="サンプル2"/>
             <ComboBoxItem x:Name="sample3" Content="サンプル3"/>
             <ComboBoxItem x:Name="sample4" Content="サンプル4"/>

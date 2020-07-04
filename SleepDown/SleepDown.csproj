@@ -116,14 +116,24 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="SampleSound\cymbal.mp3">
+    <Content Include="SampleSound\sample0.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="SampleSound\daughter.mp3">
+    </Content>
+    <Content Include="SampleSound\sample1.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
+    </Content>
+    <Content Include="SampleSound\sample2.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleSound\sample3.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleSound\sample4.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleSound\sample5.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

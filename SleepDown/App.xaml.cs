@@ -25,7 +25,7 @@ namespace SleepDown
             this.notifyIcon = new NotifyIconWrapper();
             if (SleepDown.Properties.Settings.Default.FilePath == "false")
             {
-                SleepDown.Properties.Settings.Default.FilePath = System.IO.Directory.GetCurrentDirectory() + "/SampleSound/cymbal.mp3";
+                SleepDown.Properties.Settings.Default.FilePath = System.IO.Directory.GetCurrentDirectory() + "/SampleSound/sample0.mp3";
             }
             StartWakeupTime();
             
