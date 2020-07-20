@@ -9,7 +9,6 @@ C:\Users\hage\source\repos\Neochi\SleepDown\bin\Release\SleepDown.exe
 C:\Users\hage\source\repos\Neochi\SleepDown\bin\Release\SleepDown.pdb
 C:\Users\hage\source\repos\Neochi\SleepDown\bin\Release\SmallBasicLibrary.dll
 C:\Users\hage\source\repos\Neochi\SleepDown\bin\Release\SmallBasicLibrary.xml
-C:\Users\hage\source\repos\Neochi\SleepDown\obj\Release\SleepDown.csprojAssemblyReference.cache
 C:\Users\hage\source\repos\Neochi\SleepDown\obj\Release\MainWindow.g.cs
 C:\Users\hage\source\repos\Neochi\SleepDown\obj\Release\Setting.g.cs
 C:\Users\hage\source\repos\Neochi\SleepDown\obj\Release\App.g.cs

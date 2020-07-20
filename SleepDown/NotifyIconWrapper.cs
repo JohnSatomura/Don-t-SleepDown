@@ -11,7 +11,6 @@ namespace SleepDown
         {
             InitializeComponent();
 
-            this.toolStripMenuItem_Open.Click += this.ToolStripMenuItem_Open_Click;
             this.toolStripMenuItem_Exit.Click += this.ToolStripMenuItem_Exit_Click;
             this.settingOpen.Click += this.SettingOpen_Click;
         }
@@ -21,17 +20,6 @@ namespace SleepDown
             container.Add(this);
 
             InitializeComponent();
-        }
-        /// <summary>
-        /// コンテキストメニュー "表示" を選択したとき呼ばれます。
-        /// </summary>
-        /// <param name="sender">呼び出し元オブジェクト</param>
-        /// <param name="e">イベントデータ</param>
-        private void ToolStripMenuItem_Open_Click(object sender, EventArgs e)
-        {
-            // MainWindow を生成、表示
-            var window = new MainWindow();
-            window.Show();
         }
 
         /// <summary>
@@ -49,6 +37,11 @@ namespace SleepDown
         {
             // 現在のアプリケーションを終了
             Application.Current.Shutdown();
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+
         }
     }
 }

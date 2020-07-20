@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\hage\source\repos\Neochi\SleepDown\obj\Debug\
+C:\Users\hage\source\repos\Neochi\SleepDown\obj\Release\
 SleepDown
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\hage\source\repos\Neochi\SleepDown\App.xaml
 2-595470214
 61120406564
-91546081361
+91310861896
 16956732067
 MainWindow.xaml;Setting.xaml;
 
-True
+False
 

@@ -15,6 +15,7 @@ namespace SleepDown
 
 
         /// <summary>
+        /// <summary>
         /// System.Windows.Application.Startup イベント を発生させます。
         /// </summary>
         /// <param name="e">イベントデータ を格納している StartupEventArgs</param>
@@ -46,7 +47,8 @@ namespace SleepDown
 
         public async void StartWakeupTime()
         {
-            double CallTime = SleepDown.Properties.Settings.Default.AlertTime * 60000;
+            double CallTime = SleepDown.Properties.Settings.Default.AlertTime * 1000;
+            CallTime = CallTime * SleepDown.Properties.Settings.Default.TimeUnit;
             await Task.Run(() =>
             {
                 while (true)

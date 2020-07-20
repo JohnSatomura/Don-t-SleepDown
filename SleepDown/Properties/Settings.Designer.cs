@@ -25,10 +25,10 @@ namespace SleepDown.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0.05")]
-        public double AlertTime {
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public int AlertTime {
             get {
-                return ((double)(this["AlertTime"]));
+                return ((int)(this["AlertTime"]));
             }
             set {
                 this["AlertTime"] = value;
@@ -44,6 +44,18 @@ namespace SleepDown.Properties {
             }
             set {
                 this["FilePath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int TimeUnit {
+            get {
+                return ((int)(this["TimeUnit"]));
+            }
+            set {
+                this["TimeUnit"] = value;
             }
         }
     }
